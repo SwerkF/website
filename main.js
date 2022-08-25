@@ -17,22 +17,7 @@ var typed = new Typed('#title', {
 });
 
 
+
 document.addEventListener("DOMContentLoaded", () => {
 window.scrollTo(0, 100)
 });
-
-setInterval(function () {
-var scroll = document.documentElement.scrollTop || document.body.scrollTop
-
-console.log(scroll); 
-
-if(scroll < 1100 || scroll > 3000 || scroll > 6800) {
-  document.getElementById('link').classList.add('color-white');
-  document.getElementById('link').classList.remove('color-black');
-}
-if(scroll > 1100 && scroll < 3000 || scroll > 5500 && scroll < 6800) {
-  document.getElementById('link').classList.add('color-black');
-  document.getElementById('link').classList.remove('color-white');
-
-}
-}, 0);

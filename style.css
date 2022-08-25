@@ -5,11 +5,13 @@
     margin:0;
     height: auto;
     font-family: 'Sora', sans-serif;
+    scroll-behavior: smooth;
 
 }
 
 body {
     background-color: #D44D5C;
+    
 }
 
 .header {
@@ -19,6 +21,7 @@ body {
     position: sticky;
     z-index: 200;
     display: flex;
+    padding-top: 0.5vw;
     flex-direction: row;
     justify-content: flex-end;
 
@@ -29,7 +32,12 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: #F3F3F3;
-    margin-right: 1vw;
+    margin-right: 0.2vw;
+    padding: 0.7vh;
+    background-color: #0B0014;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     
 }
 
@@ -64,7 +72,7 @@ body {
 .second {
     position: relative;
     z-index:3;
-    height: 125vh;
+    height: 120vh;
     background-color: #F5E9E2;
     display: flex;
     justify-content: center;
@@ -117,6 +125,18 @@ body {
     color: #0B0014;
     font-size: 32px;  
     box-sizing: content-box !important;
+}
+
+.seventh {
+   
+    z-index:3;
+    position: relative;
+    background-color: #D44D5C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F3F3F3;
+    height: 100vh;
 }
 
 .title, .subtitle, .subtitle2 {
@@ -334,7 +354,7 @@ img {
 }
 
 .download-2:hover {
-    transform: scale(1.15);
+    transform: scale(1.15) translateX(25px);
 }
 
 .download-3 {
@@ -355,10 +375,10 @@ img {
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-    -webkit-transition:color 500ms ease-out, background-color 500ms ease-out;
-    -moz-transition:color 500ms ease-out, background-color 500ms ease-out;
-    -o-transition:color 500ms ease-out, background-color 500ms ease-out;
-    transition:color 500ms ease-out, background-color 500ms ease-out;
+    -webkit-transition:background-color 500ms ease-out, color 500ms ease-out ;
+    -moz-transition:background-color 500ms ease-out, color 500ms ease-out ;
+    -o-transition:background-color 500ms ease-out, color 500ms ease-out ;
+    transition:background-color 500ms ease-out, color 500ms ease-out ;
 }
 
 .download-3 a:hover{

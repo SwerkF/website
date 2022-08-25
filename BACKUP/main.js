@@ -30,7 +30,7 @@ if(scroll < 1100 || scroll > 3000 || scroll > 6800) {
   document.getElementById('link').classList.add('color-white');
   document.getElementById('link').classList.remove('color-black');
 }
-if(scroll > 1100 && scroll < 3000 || scroll > 5500 && scroll < 6800) {
+if(scroll > 1100 && scroll < 3000 || scroll > 5500 && scroll < 6800 || scroll > 7500) {
   document.getElementById('link').classList.add('color-black');
   document.getElementById('link').classList.remove('color-white');
 
