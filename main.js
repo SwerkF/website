@@ -19,5 +19,4 @@ var typed = new Typed('#title', {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-window.scrollTo(0, 100)
 });

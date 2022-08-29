@@ -6,7 +6,12 @@
     height: auto;
     font-family: 'Sora', sans-serif;
     scroll-behavior: smooth;
+    
 
+}
+
+* p {
+    text-align: justify;
 }
 
 body {
@@ -153,7 +158,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .column {
@@ -184,7 +189,7 @@ img {
     width: 35vw;
     line-height: 3.5vh;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 2.2vw;
 }
 
 .color-white a {
@@ -468,25 +473,21 @@ img {
     width: 17vw;
 }
 
-@media screen and (max-width:1454px) {
+@media screen and (max-width:1539px) {
     .field {
         position: relative;
         width: 21vw;
-        height: 41vh;
-        
+        height: 50vh; 
     }
     .field p, .row h2, .field a, .field-row-text {
         font-size: 1.22vw;
     }
-    
     .field h1 {
         font-size: 1.72vw;
     }
-    
     .field img {
         width: 11vw;
     }
-    
     .field button, .field a {
         width: 2.1vw;
         height: 2.1vw;
@@ -494,34 +495,56 @@ img {
     }
 }
 
-@media screen and (max-width:1159px) {
+@media screen and (max-width:1290px) {
+    .field {
+        position: relative;
+        width: 21vw;
+        height: 50vh;
+    }
     .field p, .row h2, .field a, .field-row-text {
-        font-size: 1.25vw;
+        font-size: 1.17vw;
     }
-    
     .field h1 {
-        font-size: 1.75vw;
+        font-size: 1.80vw;
     }
-    
     .field img {
         width: 12vw;
     }
-    
     .field button, .field a {
-        width: 2.2vw;
+        width: 2.1vw;
+        height: 2.1vw;
+        font-size: 2.3vw;
+    }
+    .field {
+        position: relative;
+        width: 21vw;
+        height: 40vh;
+    }
+    .mainText p {
+        font-size: 1.35vw;
+    }
+}
+
+@media screen and (max-width:1159px) {
+    .field h1 {
+        font-size: 1.8vw;
+    }
+    .field img {
+        width: 14vw;
+    }
+    .field button, .field a {
+        width: 25pt;
         height: 2.2vw;
         font-size: 2.2vw;
     }
-    
-    .mainText{
-        width: 35vw;
-        line-height: 3.2vh;
-        font-weight: 500;
-        font-size: 1.5em;
+    .mainText p {
+        font-size: 1.6vw;
     }
-
     .mainText h1 {
-        font-size: 2.4em;
+        font-size: 2.6em;
+    }
+    .avatar {
+        width: 30vw;
     }
 }
 
@@ -529,19 +552,22 @@ img {
     .field p, .row h2, .field a, .field-row-text {
         font-size: 1.4vw;
     }
-    
     .field h1 {
         font-size: 1.9vw;
     }
-    
     .field img {
         width: 14vw;
-    }
-        
+    }   
     .field button, .field a {
         width: 2.4vw;
         height: 2.4vw;
         font-size: 2.4vw;
+    }
+    .mainText p {
+        line-height: 2.7vh;
+    }
+    .download a {
+        font-size: 1.4vw;
     }
 }
 
@@ -550,27 +576,198 @@ img {
         position: relative;
         width: 21vw;
         height: 36vh;
-        
     }
+    .field p, .row h2, .field a, .field-row-text {
+        font-size: 1.6vw;
+    }
+    .field h1 {
+        font-size: 2vw;
+    }
+    .field img {
+        width: 13vw;
+    }   
+    .field button, .field a {
+        width: 2.2vw;
+        height: 2.2vw;
+        font-size: 2.5vw;
+    }
+    .mainText p {
+        font-size: 1.8vw;
+    }
+    .mainText h1 {
+        font-size: 2.6em;
+    }
+    .avatar {
+        width: 30vw;
+    }
+    .download a {
+        font-size: 1.6vw;
+    }
+    .field {
+        position: relative;
+        width: 21vw;
+        height: 32vh;
+    }
+    
 }
 
 @media screen and (max-width:756px) {
     .field p, .row h2, .field a, .field-row-text {
         font-size: 1.5vw;
     }
-    
     .field h1 {
         font-size: 2vw;
     }
-    
     .field img {
-        width: 15vw;
-    }
-        
+        width: 11vw;
+    }  
     .field button, .field a {
         width: 2.5vw;
         height: 2.5vw;
         font-size: 2.5vw;
+    }
+    
+}
+
+@media screen and (max-width:716px) {
+    .field p, .row h2, .field a, .field-row-text {
+        font-size: 1.5vw;
+    }
+    .field h1 {
+        font-size: 2vw;
+    }
+    .field img {
+        width: 17vw;
+    } 
+    .field button, .field a {
+        width: 2.5vw;
+        height: 2.5vw;
+        font-size: 5vw;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .field {
+        position: relative;
+        width: 70vw;
+        height: 20vh; 
+    }
+    .field h1, .field p {
+        display: flex;
+        flex-direction: row;
+    }
+    .mainText p {
+        font-size: 1.9vw;
+    }
+    .avatar {
+        display: none
+    }
+    .download a {
+        font-size: 1.9vw;
+    }
+    .mainText {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    .field p, .row h2, .field a, .field-row-text {
+        font-size: 1.7vw;
+    }
+    .field h1 {
+        font-size: 2.2vw;
+    }
+    .field img {
+        width: 18vw;
+    } 
+    .field button, .field a {
+        width: 2.5vw;
+        height: 2.5vw;
+        font-size: 5.8vw;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .field {
+        position: relative;
+        width: 70vw;
+        height: 20vh; 
+    }
+    .field h1, .field p {
+        display: flex;
+        flex-direction: row;
+    }
+    .mainText p {
+        font-size: 2.1vw;
+    }
+    .avatar {
+        display: none
+    }
+    .download a {
+        font-size: 1.9vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .field p, .row h2, .field a, .field-row-text {
+        font-size: 1.9vw;
+    }
+    .field h1 {
+        font-size: 2.4vw;
+    }
+    .field img {
+        width: 20vw;
+    } 
+    .field button, .field a {
+        width: 2.5vw;
+        height: 2.5vw;
+        font-size: 6vw;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .field {
+        position: relative;
+        width: 68vw;
+        height: 20vh;
+        
+    }
+    .field h1, .field p {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .field p, .row h2, .field a, .field-row-text {
+        font-size: 2.3vw;
+    }
+    .field h1 {
+        font-size: 2.9vw;
+    }
+    .field img {
+        width: 20vw;
+    }  
+    .field button, .field a {
+        width: 2.5vw;
+        height: 2.5vw;
+        font-size: 6vw;
+    }
+    .columns {
+        display: flex;
+        flex-direction: column;
+    }
+    .field {
+        position: relative;
+        width: 50vw;
+        height: 21vh;
+    }
+    .field h1, .field p {
+        display: flex;
+        flex-direction: row;
     }
 }
 
