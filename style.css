@@ -432,8 +432,9 @@ img {
     justify-content: space-around;
     position: relative;
     width: 50vw;
-    height: 35vh;
     background-color: #ffddc9;;
+    padding: 2vh;
+    box-sizing: content-box;
     
 }
 
@@ -481,7 +482,7 @@ img {
     .field {
         position: relative;
         width: 21vw;
-        height: 48vh; 
+        height: 54vh; 
     }
     .field p, .row h2, .field a, .field-row-text {
         font-size: 1.22vw;
@@ -518,7 +519,7 @@ img {
     .field {
         position: relative;
         width: 21vw;
-        height: 49vh;
+        height: 60vh;
     }
     .mainText p {
         font-size: 1.35vw;
@@ -593,7 +594,7 @@ img {
     .field {
         position: relative;
         width: 70vw;
-        height: 35vh; 
+        height: 42vh; 
     }
     .field h2, .field p {
         display: flex;
@@ -648,15 +649,10 @@ img {
     }
 }
 
-@media screen and (max-width: 402px) {
-    .field p, .row h2, .field a, .field-row-text {
-        font-size: 3.9vw !important;
-    }
-    .field h2 {
-        font-size: 5.5vw;
-    }
+@media screen and (max-width: 477px) {
+
     .field img {
-        width: 24vw;
+        width: 26vw;
     }
 }
 
@@ -671,10 +667,10 @@ img {
 
 @media screen and (max-width: 343px) {
     .field p, .row h2, .field a, .field-row-text {
-        font-size: 4.4vw !important;
+        font-size: 4.6vw !important;
     }
     .field h2 {
-        font-size: 5.8vw;
+        font-size: 6vw;
     }
     .field img {
         width: 28vw;
@@ -686,6 +682,6 @@ img {
         font-size: 4.8vw !important;
     }
     .field img {
-        width: 32vw;
+        width: 34vw;
     }
 }
