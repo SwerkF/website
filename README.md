@@ -2,15 +2,28 @@
 
 Bienvenue sur le Readme de mon Portfolio.
 
-##Introduction
+## Introduction
 
 Pour le début d'année scolaire 2022-2023, j'ai décidé de coder un portfolio. Anciennement héberger sur [Nexgate](https://www.nexgate.ch), je trouvais que utiliser Wordpress pour le site n'était pas vraiment représentatif.
 J'ai décidé donc de coder le site en partant de 0, en utilisant seulement du HTML, CSS et Javascript sans utiliser de Frameworks.
 
-##Auteurs
+## Auteurs
 L'auteur du site est [Swerk](https://github.com/SwerkF).
 
-##Technologies
+## Fonctionnalités
+
+Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.swerk.dev](https://www.swerk.dev)
+
+![picture](imgs/website.png)
+
+Pour le moment, le site ne propose pas grand chose, cependant, une version mobile est en cours de developpement ainsi qu'une thème sombre.
+
+L'objectif final, est que le Portfolio évolue afin de proposer un système d'éxploiatation en ligne en guise de Portfolio.
+Les maquettes du site sont disponible juste en dessous : 
+![picture](imgs/loading.png)
+![picture](imgs/index.png)
+
+## Technologies
 Les technologies utilisées sur le site sont : 
 - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
@@ -30,17 +43,7 @@ Au final, pour générer les vagues pour les transitions, j'ai utilisé le site 
 
 L'hébergement du site se fait via [GitHub Pages](https://pages.github.com/).
 
-##Fonctionnalités
 
-Pour le moment, le site ne propose pas grand chose, cependant, une version mobile est en cours de developpement ainsi qu'une thème sombre.
+## Contacts 
 
-L'objectif final, est que le Portfolio évolue afin de proposer un système d'éxploiatation en ligne en guise de Portfolio.
-Les maquettes du site sont disponible juste en dessous : 
-![picture](imgs/loading.png)
-![picture](imgs/index.png)
-
-#Contacts 
-
-Vous pouvez me contacter via:
-- Discord: Swerk#0911
-- Mail : swerk.pro@gmail.com
+![picture](imgs/contact.png)
