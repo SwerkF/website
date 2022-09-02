@@ -10,6 +10,19 @@ J'ai décidé donc de coder le site en partant de 0, en utilisant seulement du H
 ## Auteurs
 L'auteur du site est [Swerk](https://github.com/SwerkF).
 
+## Fonctionnalités
+
+Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.swerk.dev](https://www.swerk.dev)
+
+![picture](imgs/website.png)
+
+Pour le moment, le site ne propose pas grand chose, cependant, une version mobile est en cours de developpement ainsi qu'une thème sombre.
+
+L'objectif final, est que le Portfolio évolue afin de proposer un système d'éxploiatation en ligne en guise de Portfolio.
+Les maquettes du site sont disponible juste en dessous : 
+![picture](imgs/loading.png)
+![picture](imgs/index.png)
+
 ## Technologies
 Les technologies utilisées sur le site sont : 
 - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
@@ -30,18 +43,6 @@ Au final, pour générer les vagues pour les transitions, j'ai utilisé le site 
 
 L'hébergement du site se fait via [GitHub Pages](https://pages.github.com/).
 
-## Fonctionnalités
-
-Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.swerk.dev](https://www.swerk.dev)
-
-![picture](imgs/website.png)
-
-Pour le moment, le site ne propose pas grand chose, cependant, une version mobile est en cours de developpement ainsi qu'une thème sombre.
-
-L'objectif final, est que le Portfolio évolue afin de proposer un système d'éxploiatation en ligne en guise de Portfolio.
-Les maquettes du site sont disponible juste en dessous : 
-![picture](imgs/loading.png)
-![picture](imgs/index.png)
 
 ## Contacts 
 
