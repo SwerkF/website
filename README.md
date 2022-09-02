@@ -8,7 +8,7 @@ Pour le début d'année scolaire 2022-2023, j'ai décidé de coder un portfolio.
 J'ai décidé donc de coder le site en partant de 0, en utilisant seulement du HTML, CSS et Javascript sans utiliser de Frameworks.
 
 ## Auteurs
-L'auteur du site est [Swerk](https://github.com/SwerkF).
+L'auteur du site est [Swerk](https://github.com/SwerkF), developpeur de 20 ans en BTS SIO.
 
 ## Fonctionnalités
 
