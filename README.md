@@ -2,15 +2,15 @@
 
 Bienvenue sur le Readme de mon Portfolio.
 
-##Introduction
+## Introduction
 
 Pour le début d'année scolaire 2022-2023, j'ai décidé de coder un portfolio. Anciennement héberger sur [Nexgate](https://www.nexgate.ch), je trouvais que utiliser Wordpress pour le site n'était pas vraiment représentatif.
 J'ai décidé donc de coder le site en partant de 0, en utilisant seulement du HTML, CSS et Javascript sans utiliser de Frameworks.
 
-##Auteurs
+## Auteurs
 L'auteur du site est [Swerk](https://github.com/SwerkF).
 
-##Technologies
+## Technologies
 Les technologies utilisées sur le site sont : 
 - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
@@ -30,7 +30,7 @@ Au final, pour générer les vagues pour les transitions, j'ai utilisé le site 
 
 L'hébergement du site se fait via [GitHub Pages](https://pages.github.com/).
 
-##Fonctionnalités
+## Fonctionnalités
 
 Le site est disponible avec 2 URLS: [www.skweres.xyz](https://www.skweres.xyz) OU [www.swerk.dev](https://www.swerk.dev)
 
@@ -43,6 +43,6 @@ Les maquettes du site sont disponible juste en dessous :
 ![picture](imgs/loading.png)
 ![picture](imgs/index.png)
 
-#Contacts 
+## Contacts 
 
 ![picture](imgs/contact.png)
