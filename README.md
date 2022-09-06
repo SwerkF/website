@@ -23,7 +23,7 @@ Les maquettes du site sont disponible juste en dessous :
 ![picture](imgs/loading.png)
 ![picture](imgs/index.png)
 
-## Technologies
+## __Technologies__
 Les technologies utilisées sur le site sont : 
 - [HTML](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/fr/docs/Web/CSS)
