@@ -46,9 +46,6 @@ var checkScrollSpeed = (function(settings){
   };
 })();
 
-// listen to "scroll" event
-window.onscroll = function(){
-};
 
 var name = ["O", "l", "i", "w", "e", "r", "-", "S", "k", "w", "e", "r", "e", "s"];
 let idx = 0;
