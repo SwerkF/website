@@ -1,7 +1,7 @@
 
 body {
     position: relative;
-    background-color: #048B9A !important;
+    background-color: #f5f5f5 !important;
     z-index: -2;
     overflow-x: hidden;
   }
@@ -32,8 +32,8 @@ body {
   }
   .first { grid-area: first; background-color: #0b0b0b;}
   .Second { grid-area: Second; background-color: #048B9A; }
-  .Third { grid-area: Third; background-color: #FFFFFF; }
-  .Fourth { grid-area: Fourth; background-color: #E3170A; }
+  .Third { grid-area: Third; background-color: #F5F5F5; }
+  .Fourth { grid-area: Fourth; background-color: #CCA43B; }
 
 .z-index-0 {
     z-index: 0;
@@ -66,18 +66,18 @@ body {
 }
 
 .color-white {
-    color: #FFFFFF;
+    color: #F5F5F5;
     text-decoration: none;;
 }
 
 .hover-text-animate-p {
     transition: 200ms ease-in-out;
     text-shadow: 0 0 0.15em #efefef;
-    color: #ffffff;
+    color: #F5F5F5;
 }
 
 .hover-text-animate-p:hover {
-    color: #E3170A;
+    color: #CCA43B;
     text-shadow: 0 0 0.15em #d06066;
     font-size: 1.2em;
     transform: translateY(-50px);
@@ -86,7 +86,7 @@ body {
 .hover-text-animate-b {
     transition: 200ms ease-in-out;
     text-shadow: 0 0 0.15em #efefef;
-    color: #ffffff;
+    color: #F5F5F5;
 }
 
 .hover-text-animate-b:hover {
@@ -108,7 +108,7 @@ body {
     margin-left: 4em; 
     font-size: 1.2em;
     text-shadow: 0 0 0.25em #efefef;
-    background: linear-gradient(to right, #E3170A,#048B9A,#E3170A);
+    background: linear-gradient(to right, #CCA43B,#048B9A,#CCA43B);
     background-size: 200% 200%;
     animation: rainbow 20s ease-in-out infinite;
     -webkit-background-clip: text;
@@ -117,7 +117,7 @@ body {
 }
 
 .color-br {
-    background: linear-gradient(to right, #E3170A,#048B9A,#E3170A);
+    background: linear-gradient(to right, #CCA43B,#048B9A,#CCA43B);
     background-size: 200% 240%;
     -webkit-background-clip: text;
     background-clip: text;
@@ -181,7 +181,7 @@ body {
     margin-top: 25vh;
     width: 28vw;
     height: 53vh;
-    background: linear-gradient(312deg, #E3170A 0%, #048B9A 100%);
+    background: linear-gradient(312deg, #CCA43B 0%, #048B9A 100%);
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -308,7 +308,7 @@ body {
 .section-presentation {
     width: 100%;
     height: fit-content !important;
-    background-color: #E3170A;
+    background-color: #CCA43B;
     padding-bottom: 12%;
 
 }
@@ -316,7 +316,7 @@ body {
 .section-stages {
     width: 100%;
     height: fit-content !important;
-    background-color: #ffffff ;
+    background-color: #048B9A; 
 
     padding-bottom: 12%;
 
@@ -325,7 +325,8 @@ body {
 .section-projets {
     width: 100%;
     height: fit-content !important;
-    padding-bottom: 12%;   
+    padding-bottom: 12%;  
+    background-color: #f5f5f5; 
 }
 
 .section-certifs {
@@ -339,7 +340,7 @@ body {
     width: 100%;
     height: fit-content !important;
     padding-bottom: 12%;
-    background-color: #ffffff
+    background-color: #F5F5F5
 }
 
 
@@ -348,12 +349,20 @@ body {
     font-size: 5em; color: #F5F5F5; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
 }
 
+.title-projets  {
+    font-size: 5em; color: #000000; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
+}
+
 .title-p {
     margin-top: 0.5em; color:#F5F5F5;font-size: 5em;
 }
 
 .title-presentation-white  {
-    font-size: 5em; color: #000000; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #ececec;  ;
+    font-size: 5em; color: #F5F5F5; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #ececec;  ;
+}
+
+.title-veilles {
+    font-size: 5em; color: #000000; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
 }
 .button {
     margin-top: 3em;
@@ -366,7 +375,7 @@ body {
     background-size: 100% 100%;
     border-radius: 20px 20px 20px 20px;
     border: 0px;
-    color: #ffffff !important;
+    color: #F5F5F5 !important;
     font-size: 1.2em;
     transition: 200ms ease-in-out;
 }
@@ -381,7 +390,7 @@ body {
     background: linear-gradient(90deg, #2B2B2B,#000000);
     background-size: 100% 100%;
     border-radius: 20px 20px 20px 20px;
-    color: #ffffff !important;
+    color: #F5F5F5 !important;
     font-size: 1em !important;
     transition: 200ms ease-in-out;
 }
@@ -407,7 +416,7 @@ body {
     margin-bottom: 1em;
     width: 30em;
     height: 3em;
-    background: linear-gradient(45deg, #e4e4e4,#ffffff);
+    background: linear-gradient(45deg, #e4e4e4,#F5F5F5);
     background-size: 100% 100%;
     border-radius: 20px 20px 20px 20px;
     border: 0px;
@@ -433,7 +442,7 @@ body {
     position: relative;
     width: 30em;
     height: 27em;
-    background-color: #E3170A;
+    background-color: #CCA43B;
     background: linear-gradient(100deg, #1c1c1c,#000000);
     border-radius: 20px;
     margin: 25vh 1rem 0;
@@ -447,7 +456,7 @@ body {
     position: relative;
     width: 30em;
     height: 27em;
-    background-color: #E3170A;
+    background-color: #CCA43B;
     background: linear-gradient(100deg, #1c1c1c,#000000);
     border-radius: 20px;
     margin: 25vh 1rem 0;
@@ -459,7 +468,7 @@ body {
     position: relative;
     width: 30em;
     height: 17em;
-    background-color: #E3170A;
+    background-color: #CCA43B;
     background: linear-gradient(100deg, #1c1c1c,#000000);
     border-radius: 20px;
     margin: 25vh 1rem 0;
@@ -488,7 +497,7 @@ body {
     border-radius: 20px;
     margin: 5px;
     transition: 200ms ease-in-out;
-    color: #ffffff;
+    color: #F5F5F5;
       
   
 }
@@ -517,7 +526,7 @@ body {
     border-radius: 20px;
     margin: 5px;
     transition: 200ms ease-in-out;
-    color: #ffffff;  
+    color: #F5F5F5;  
 }
 
 .square-s-big p{
@@ -544,8 +553,8 @@ body {
 
 
 @media (max-width: 768px) {
-    .title-presentation  {
-        font-size: 3.4em !important; color: #F5F5F5; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
+    .title-presentation, .title-projets  {
+        font-size: 3.4em !important; margin-bottom: 0.5em; text-shadow: 0 0 0.15em #efefef;  ;
     }
     
     .button-3 {
