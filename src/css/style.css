@@ -4,10 +4,14 @@ html, body {
 }
 
 body {
-    position: relative;
+    position: inherit;
     background-color: #edecec !important;
     z-index: -2;
-  }
+}
+
+::-webkit-scrollbar {
+    width: 0em;
+}
 
 
 .container-fb {
@@ -88,7 +92,7 @@ body {
 
 .hover-text-animate-p:hover {
     color: #048B9A;
-    text-shadow: 0 0 0.15em #d06066;
+    text-shadow: 0 0 0.15em #048B9A;
     font-size: 1.2em;
     transform: translateY(-50px);
 }
@@ -161,7 +165,7 @@ body {
     margin-right: 3em; 
     font-size: 1.2em;
     text-shadow: 0 0 0.25em #efefef;
-    background: linear-gradient(to right, #FF00A6,#7A9E7E,#FF00A6);
+    background: linear-gradient(to right, #048B9A,#7A9E7E,#048B9A);
     background-size: 200% 200%;
     animation: rainbow 20s ease-in-out infinite;
     -webkit-background-clip: text;
@@ -475,7 +479,7 @@ body {
     max-width: 30em;
     max-height: 30em;
     background-color: #048B9A;
-    background: linear-gradient(100deg, #1c1c1c,#000000);
+    background: linear-gradient(100deg, #1c1c1c,#272727);
     border-radius: 20px;
     margin: 25vh 1rem 0;
     margin: 30px;
@@ -505,6 +509,12 @@ body {
     min-width: 300px;
     max-width: 300px;
     max-height: 300px;
+    transition: 300ms;
+}
+
+.square-c-content img:hover {
+    transform: scale(1.1);
+    transition: 200ms ease-in-out;
 }
 
 .square-c-content h2 {
